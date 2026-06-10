@@ -43,8 +43,9 @@ def load_all_books_context(books_dict):
 # 💡 여기에 다른 책들을 얼마든지 자유롭게 추가할 수 있습니다!
 SUPPORTED_BOOKS = {
     "정의란 무엇인가 (마이클 샌델)": "2437)정의란 무엇인가 (마이클 샌델) .txt",
-     "코스모스 (칼 세이건)": "코스모스 - 보급판 (칼 세이건) (z-librarysk, 1libsk, z-libs_260610_210711.txt",  
-     "사피엔스 (유발 하라리)": "사피엔스 (유발 하라리 지음, 조현욱 옮김) (z-library.sk, 1lib.sk, z-lib.sk).txt"
+    "코스모스 (칼 세이건)": "코스모스 - 보급판 (칼 세이건) (z-librarysk, 1libsk, z-libs_260610_210711.txt",  
+    "사피엔스 (유발 하라리)": "사피엔스 (유발 하라리 지음, 조현욱 옮김) (z-library.sk, 1lib.sk, z-lib.sk).txt"
+
 }
 
 BOOKS_DB = load_all_books_context(SUPPORTED_BOOKS)
